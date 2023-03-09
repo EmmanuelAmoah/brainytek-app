@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
+import MyCarousel from './carousel';
 import Client from './client_say'
-import Slider from './owlcarousel'
 
 
 function Home() {
@@ -55,7 +55,7 @@ function Home() {
           </div>
         </div>
       {/* <!-- header bottom end --> */}
-      <Slider/>
+      <MyCarousel/>
       {/* <!-- section --> */}
       <div className="section padding_layout_1">
         <div className="container">
