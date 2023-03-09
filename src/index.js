@@ -8,7 +8,8 @@ import Contact from './contact'
 import About from './about'
 import Services from './services'
 import BookAppointment from './book_appointment';
-
+import Privacy from './privacy_policy'
+import TermsAndConditions from './terms_n_conditions';
   
 
 function App(){
@@ -21,6 +22,8 @@ function App(){
                 <Route path="/about" element={<About/>}/>
                 <Route path="/services" element={<Services/>}/>
                 <Route path="/book_Appointment" element={<BookAppointment/>}/>
+                <Route path='/privacy-policy' element={<Privacy/>}/>
+                <Route path='/terms-and-conditions' element={<TermsAndConditions/>}/>
             </Routes>
             <Footer/>
         </BrowserRouter>

@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
     
-        <div className="container">
+        <div className="container" style={{backgroundColor:'white'}}>
           <div className="row">
             <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
               {/* <!-- logo start --> */}
@@ -40,7 +40,7 @@ function Home() {
                     </li>
                   </ul>
                 </div>
-                <div className="search_icon">
+                {/* <div className="search_icon">
                   <ul>
                     <li>
                       <Link to={"#"} data-toggle="modal" data-target="#search_bar">
@@ -48,7 +48,7 @@ function Home() {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               {/* <!-- menu end --> */}
             </div>

@@ -1,4 +1,6 @@
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Render from './map';
+
 function Footer() {
     return (
         <>
@@ -6,7 +8,7 @@ function Footer() {
                 <div className="container-fuild">
                     <div className="row">
                         <div className="map_section">
-                            <div id="map"></div>
+                            <div id="map"><Render/></div>
                         </div>
                         <div className="footer_blog">
                             <div className="row">
@@ -29,9 +31,8 @@ function Footer() {
                                     </div>
                                     <ul className="footer-menu">
                                         <li><Link to={"/about"}><i className="fa fa-angle-right"></i> About us</Link></li>
-                                        <li><Link to={"#"}><i className="fa fa-angle-right"></i> Terms and conditions</Link></li>
-                                        <li><Link to={"#"}><i className="fa fa-angle-right"></i> Privacy policy</Link></li>
-                                        <li><Link to={"#"}><i className="fa fa-angle-right"></i> News</Link></li>
+                                        <li><Link to={"/privacy-policy"}><i className="fa fa-angle-right"></i> Privacy Policy</Link></li>
+                                        <li><Link to={"/terms-and-conditions"}><i className="fa fa-angle-right"></i> Terms and Conditions</Link></li>
                                         <li><Link to={"/contact"}><i className="fa fa-angle-right"></i> Contact us</Link></li>
                                     </ul>
                                 </div>
@@ -53,7 +54,7 @@ function Footer() {
                                     </div>
                                     <p>Asokwa Stadium Road, <br/>
                                         Kumasi, Ghana <br/>
-                                        <span style={{ fontSize: '18px' }}><Link to={"tel:+233207554010"}>+233 20755 4010</Link></span>
+                                        <span style={{ fontSize: '18px' }}><Link to={"tel:+233207554010 / "}>+233 20755 4010</Link></span>
                                     </p>
                                     <div className="footer_mail-section" style={{display: 'block'}}>
                                         <form>

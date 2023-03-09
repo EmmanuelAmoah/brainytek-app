@@ -2,6 +2,54 @@ import {Link} from 'react-router-dom'
 function BookAppointment() {
   return (
     <>
+       <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+              {/* <!-- logo start --> */}
+              <div className="logo">
+                {" "}
+                <Link to={"/"}>
+                  <img src="images/logos/it_logo.png" alt="logo" />
+                </Link>{" "}
+              </div>
+              {/* <!-- logo end --> */}
+            </div>
+            <div className="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+              {/* <!-- menu start --> */}
+              <div className="menu_side">
+                <div id="navbar_menu">
+                  <ul className="first-ul">
+                    <li>
+                      <Link to={"/"}>
+                        Home
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to={"/about"}>About Us</Link>
+                    </li>
+                    <li>
+                      <Link to={"/services"}>Services</Link>
+                    </li>
+                    <li>
+                      <Link to={"/contact"}>Contact</Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="search_icon">
+                  <ul>
+                    <li>
+                      <Link to={"#"} data-toggle="modal" data-target="#search_bar">
+                        <i className="fa fa-search" aria-hidden="true"></i>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* <!-- menu end --> */}
+            </div>
+          </div>
+        </div>
+      {/* <!-- header bottom end --> */}
       <div id="inner_banner" className="section inner_banner_section">
         <div className="container">
           <div className="row">

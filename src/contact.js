@@ -22,12 +22,12 @@ function Contact() {
                                             <li><Link className="active" to={"/contact"}>Contact</Link></li>
                                         </ul>
                                     </div>
-                                    <div className="search_icon">
+                                    {/* <div className="search_icon">
                                         <ul>
                                             <li><Link to={"#"} data-toggle="modal" data-target="#search_bar"><i className="fa fa-search"
                                                 aria-hidden="true"></i></Link></li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 {/* <!-- menu end --> */}
                             </div>

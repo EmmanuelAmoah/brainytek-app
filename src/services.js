@@ -37,7 +37,7 @@ function Services() {
                                     <div className="title-holder-cell text-left">
                                         <h1 className="page-title">Services</h1>
                                         <ol className="breadcrumb">
-                                            <li><Link to="/">Home</Link></li>
+                                            <li><Link to={"/"}>Home</Link></li>
                                             <li className="active">Services</li>
                                         </ol>
                                     </div>
